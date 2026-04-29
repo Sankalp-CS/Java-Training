@@ -13,7 +13,6 @@ public class Traffic {
 		}else if(speed>80) {
 			fine+=500;
 		}
-		//System.out.println(fine);
 		System.out.println("repeated(yes/no)");
 		String repeated=sc.next();
 		
@@ -23,5 +22,6 @@ public class Traffic {
 		}else {
 			System.out.println(fine);
 		}
+		sc.close();
 	}
 }
